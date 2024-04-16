@@ -1,6 +1,6 @@
 //---------------------------polymorphism------------------------------
 //------------------example of overloading-----------------------------
-class polymorphism{
+class polymorpshism{
     void add(int a,int b){
         System.out.println("Answer of a+b is : "+ (a+b));
     }
@@ -11,7 +11,7 @@ class polymorphism{
 }
 public class polymorphismOverloading {
     public static void main(String[] args) {
-        polymorphism p = new polymorphism();
+         polymorpshism p = new polymorpshism();
          p.add(9,7);
          p.add(1,4,8);
     }
