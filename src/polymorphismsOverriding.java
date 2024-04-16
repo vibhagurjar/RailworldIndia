@@ -15,13 +15,14 @@ class Dog extends Animal{
         System.out.println("In Dog's sound class");
     }
 }
-public class polymorphisms{
+public class polymorphismsOverriding{
     public static void main(String[] args) {
-        Animal a = new Animal();
+        Animal a;
+        a = new Animal();
         a.sound();
-        Animal p = new Pig();
-        p.sound();
-        Animal d = new Dog();
-        d.sound();
+        a = new Pig();
+        a.sound();
+        a = new Dog();
+        a.sound();
     }
 }
