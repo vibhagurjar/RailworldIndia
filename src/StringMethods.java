@@ -24,8 +24,11 @@ public class StringMethods {
         System.out.println("Replace mathod: "+a1);
 
     //lowercase and uppercase methods are used to change our string into uppercase and lowercase
-    // toUpperCase() & toLowerCase
+    // toUpperCase() & toLowerCase()
+        String[] parts = s.split("i");
 
-
+      for(String ss:parts){
+          System.out.print(" "+ss);
+      }
     }
 }
