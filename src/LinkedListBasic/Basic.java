@@ -58,8 +58,7 @@ public class Basic {
         boolean b = l.isEmpty();
         System.out.println(b);
 
-        String str =
-                l.toString();
+        String str =l.toString();
 
         System.out.println(str);
         System.out.println(str.length());
